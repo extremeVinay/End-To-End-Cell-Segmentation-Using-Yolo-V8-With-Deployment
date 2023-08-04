@@ -8,7 +8,8 @@ from cellSegmentation.constant.application import APP_HOST, APP_PORT
 
 
 
-app = Flask(__name__)
+application=Flask(__name__)
+app=application
 CORS(app)
 
 class ClientApp:
